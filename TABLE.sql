@@ -36,7 +36,7 @@ CREATE TABLE liste_equipe (
   );
   
  CREATE TABLE etape (
-   id_etape SERIAL PRIMARY KEY,
+   id_etape INTEGER PRIMARY KEY,
    id_equipe INTEGER REFERENCES equipe(id_equipe),
   id_sport  INTEGER REFERENCES sport(id_sport)
    );
