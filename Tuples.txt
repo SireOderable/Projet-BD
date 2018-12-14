@@ -27,11 +27,11 @@ Bronze - JAPON - Nozomi OKUHARA --> Score null  -> date naissance : 13 Mars 1995
 Basketball :
 Hommes
 Or - ETATS-UNIS
-De Marcus COUSINS -> 13 Août 1990 - DeAndre JORDAN -> 21 Juillet 1988 - Kyrie IRVING -> 23 Mars 1992
+DeMarcus COUSINS -> 13 Août 1990 - DeAndre JORDAN -> 21 Juillet 1988 - Kyrie IRVING -> 23 Mars 1992
 Kyle LOWRY -> 25 Mars 1986 - Jimmy BUTLER -> 14 Septembre 1989 - DeMar DEROZAN -> 07 Août 1989
-Bobby DIXON -> 10 Avril 1983 - Klay THOMPSON -> 08 Février 1990 - Carmelo ANTHONY -> 29 Mai 1984
+Klay THOMPSON -> 08 Février 1990 - Carmelo ANTHONY -> 29 Mai 1984
 Harrison BARNES -> 30 Mars 1992 - Kevin DURANT -> 29 Septembre 1988 - Paul GEORGE -> 02 Mai 1990
-Draymond GREEN -> 04 Mars 1990 - Blake SCHLIB -> 23 Décembre 1983
+Draymond GREEN -> 04 Mars 1990
 
 Argent - ESPAGNE
 José Calderon -> 28 Septembre 1981 - Sergio Rodriguez -> 12 Juin 1986 - Ricky Rubio -> 21 Octobre 1990
@@ -47,3 +47,19 @@ Argent - ITALIE  --> Andrea SANTARELLI , Paolo PIZZO , Marco FICHERA , Enrico GA
 --> 1993-06-03 , 1983-04-04 , 1993-04-15 , 1989-06-21
 Bronze - HONGRIE --> Geza IMRE , Gabor BOCZKO , Andras REDLI , Peter SOMFAI
 --> 1974-12-23 , 1977-04-01 , 1983-10-21 , 1980-04-02
+
+Gymnastique Artistique :
+Concours multiple individuel femmes
+Or - USA - Simone BILES - 62.198 --> 1997-03-14
+Argent - USA - Alexandra RAISMAN - 60.098 --> 1994-05-25
+Bronze - RUS - Aliya MUSTAFINA - 58.665 --> 1994-09-30
+
+Compétition par equipes femmes
+Or - USA - 184.897 --> Gabby DOUGLAS , Alexandra RAISMAN , Simone BILES , Madison KOCIAN , Lauren HERNANDEZ
+--> 1995-12-31 , 1994-05-25 , 1997-03-14 , 1997-06-15 , 2000-06-09
+
+Argent - RUS - 176.688 --> Angelina MELNIKOVA , Aliya MUSTAFINA , Maria PASEKA , Daria SPIRIDONOVA , Seda TUTKHALIAN
+--> 2000-07-18 , 1994-09-30 , 1995-09-19 , 1998-09-08 , 1999-09-15
+
+Bronze - CHINE - 176.003 --> Fan YILIN , Mao YIN , Tan JIAXIN , Shang CHUNSONG , Wang YAN
+--> 1999-11-11 , 1999-09-16 , 1996-09-03 , 1996-03-18 , 1999-10-30
