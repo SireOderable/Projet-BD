@@ -1,6 +1,5 @@
 drop table if exists etape_tournois;
 drop table if exists finale;
-drop table if exists etape;
 drop table if exists composition_equipe;
 drop table if exists equipe;
 drop table if exists sport;
@@ -38,14 +37,6 @@ CREATE TABLE composition_equipe (
   PRIMARY KEY (id_equipe, id_at)
   );
   
-  
- CREATE TABLE etape (
-   id_etape INTEGER PRIMARY KEY,
-   id_equipe INTEGER REFERENCES equipe(id_equipe),
-  id_sport  INTEGER REFERENCES sport(id_sport)
-   );
-   
-  
  CREATE TABLE finale (
    id_finale SERIAL PRIMARY KEY,
    nom_finale VARCHAR (50) CHECK
@@ -57,7 +48,6 @@ CREATE TABLE composition_equipe (
 CREATE TABLE etape_tournois (
   id_equipe INTEGER REFERENCES equipe(id_equipe),
   id_sport  INTEGER REFERENCES sport(id_sport),
-  id_etape  INTEGER REFERENCES etape(id_etape),
   id_finale INTEGER REFERENCES finale(id_finale),
   resultat FLOAT,
   journee INTEGER
@@ -80,6 +70,7 @@ INSERT INTO pays VALUES
 (11, 'Hongrie'),
 (12, 'Fédération de Russie'),
 (13, 'Chine');
+(14, 'Serbie');
 
 INSERT INTO athlete VALUES
 (1, '1986-08-21', 'BOLT', 'Usain', 'M', 1),
@@ -111,18 +102,18 @@ INSERT INTO athlete VALUES
 (27, '1988-09-29', 'DURANT', 'Kevin', 'M', 2),
 (28, '1990-05-02', 'GEORGE', 'Paul', 'M', 2),
 (29, '1990-03-04', 'GREEN', 'Draymond', 'M', 2),
-(30, '1981-09-28', 'CALDERON', 'José', 'M', 7),
-(31, '1986-06-12', 'RODRIGUEZ', 'Sergio', 'M', 7),
-(32, '1990-10-21', 'RUBIO', 'Ricky', 'M', 7),
-(33, '1993-08-01', 'ABRINES', 'Alex', 'M', 7),
-(34, '1985-04-04', 'FERNANDEZ', 'Rudy', 'M', 7),
-(35, '1987-11-15', 'LLULL', 'Sergio', 'M', 7),
-(36, '1980-06-13', 'NAVARRO', 'Juan Carlos', 'M', 7),
-(37, '1988-08-30', 'CLAVER', 'Victor', 'M', 7),
-(38, '1980-07-06', 'GASOL', 'Pau', 'M', 7),
-(39, '1994-05-27', 'HERNANGOMEZ', 'Willy', 'M', 7),
-(40, '1991-02-11', 'MIROTIC', 'Nikola', 'M', 7),
-(41, '1980-03-06', 'REYES', 'Felipe', 'M', 7),
+(30, '1988-04-25', 'MARKOVIC', 'Stefan', 'M', 14),
+(31, '1991-06-16', 'NEDOVIC', 'Nemanja', 'M', 14),
+(32, '1990-11-03', 'JOVIC', 'Stefan', 'M', 14),
+(33, '1987-03-19', 'TEODOSIC', 'Milos', 'M', 14),
+(34, '1992-08-18', 'BOGDANOVIC', 'Bogdan', 'M', 14),
+(35, '1988-01-05', 'KALINIC', 'Nikola', 'M', 14),
+(36, '1986-05-30', 'SIMONOVIC', 'Marko', 'M', 14),
+(37, '1989-12-13', 'BIRCEVIC', 'Stefan', 'M', 14),
+(38, '1995-02-19', 'JOKIC', 'Nikola', 'M', 14),
+(39, '1989-11-16', 'MACVAN', 'Milan', 'M', 14),
+(40, '1988-01-05', 'RADULJICA', 'Miroslav', 'M', 14),
+(41, '1987-08-25', 'STIMAC', 'Vladimir', 'M', 14),
 (42, '1988-11-05', 'BOREL', 'Yannick', 'M', 6),
 (43, '1984-05-29', 'GRUMIER', 'Gauthier', 'M', 6),
 (44, '1991-06-04', 'JERENT', 'Daniel', 'M', 6),
@@ -154,12 +145,12 @@ INSERT INTO athlete VALUES
 INSERT INTO sport VALUES
 (1, 'Athlétisme - 100m hommes'),
 (2, 'Athlétisme - 100m femmes'),
-(3, 'Aviron - Quatre en pointe sans barreur poids légers (4-) hommes'),
+(3, 'Aviron - poids légers (4-) hommes'),
 (4, 'Badminton - simple femmes'),
 (5, 'Basketball - hommes'),
 (6, 'Escrime - épée par équipes hommes'),
-(7, 'Gymnastique Artistique - Concours multiple individuel femmes'),
-(8, 'Gymnastique Artistique - Concours multiple par équipes femmes');
+(7, 'Gymnastique - Multiple individuel femmes'),
+(8, 'Gymnastique - Multiple par equipes femmes');
 
 INSERT INTO equipe VALUES
 (1, 1, 1),
@@ -258,3 +249,61 @@ INSERT INTO composition_equipe VALUES
 (23, 66),
 (23, 67),
 (23, 68);
+
+INSERT INTO finale VALUES
+(1, 'FINALE', 1, 'or'),
+(2, 'FINALE', 2, 'argent'),
+(3, 'FINALE', 3, 'bronze'),
+(4, 'FINALE', 4, 'or'),
+(5, 'FINALE', 5, 'argent'),
+(6, 'FINALE', 6, 'bronze'),
+(7, 'FINALE', 7, 'or'),
+(8, 'FINALE', 8, 'argent'),
+(9, 'FINALE', 9, 'bronze'),
+(10, 'FINALE', 10, 'or'),
+(11, 'FINALE', 11, 'argent'),
+(12, 'PETITE FINALE', 12, 'bronze'),
+(13, 'FINALE', 13, 'or'),
+(14, 'FINALE', 14, 'argent'),
+(15, 'FINALE', 15, 'or'),
+(16, 'FINALE', 16, 'argent'),
+(17, 'PETITE FINALE', 17, 'bronze'),
+(18, 'FINALE', 18, 'or'),
+(19, 'FINALE', 19, 'argent'),
+(20, 'FINALE', 20, 'bronze'),
+(21, 'FINALE', 21, 'or'),
+(22, 'FINALE', 22, 'argent'),
+(23, 'FINALE', 23, 'bronze');
+
+INSERT INTO etape_tournois VALUES
+(1, 1, 1, 9.81, 12),
+(2, 1, 2, 9.89, 12),
+(3, 1, 3, 9.91, 12),
+(4, 2, 4, 10.71, 11),
+(5, 2, 5, 10.83, 11),
+(6, 2, 6, 10.86, 11),
+(7, 3, 7, 6.20, 9),
+(8, 3, 8, 6.21, 9),
+(9, 3, 9, 6.22, 9),
+(10, 4, 10, 2, 17),
+(11, 4, 11, 1, 17),
+(12, 4, 12, 2, 17),
+(13, 5, 13, , 12),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
