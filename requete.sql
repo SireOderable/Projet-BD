@@ -8,12 +8,7 @@ and composition_equipe.id_equipe = A.id_equipe;
 select distinct nom, medaille, S.nom_sport
 from athlete, 
 (SELECT DISTINCT * FROM sport 
-WHERE sport.nom_sport = 'Athletisme - 100m hommes' 
-OR sport.nom_sport = 'Athletisme - 100m femmes' 
-OR sport.nom_sport = 'Athletisme - 200m hommes' 
-OR sport.nom_sport = 'Athletisme - 400m hommes'
-OR sport.nom_sport = 'Athletisme - 200m femmes'
-OR sport.nom_sport = 'Athletisme - 400m femmes') as S, 
+WHERE sport.nom_sport LIKE 'Athletisme%' ) as S, 
 equipe, 
 (select * from finale where medaille is not null) as A,
 composition_equipe
