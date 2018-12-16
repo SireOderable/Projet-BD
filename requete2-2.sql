@@ -1,4 +1,4 @@
-SELECT nom_pays, a.c
+SELECT nom_pays, a.c as medaille
 FROM 
 (SELECT id_pays, count(medaille) as c
 

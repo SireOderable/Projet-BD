@@ -1,4 +1,4 @@
-INSERT INTO etape_tournois VALUES
+INSERT INTO etape_tournois (id_equipe, id_sport, id_finale, resultat, journee) VALUES
 (1, 1, 1, 9.81, 12),
 (2, 1, 2, 9.89, 12),
 (3, 1, 3, 9.91, 12),

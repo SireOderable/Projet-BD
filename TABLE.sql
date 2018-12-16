@@ -46,6 +46,7 @@ CREATE TABLE finale (
 );
   
 CREATE TABLE etape_tournois (
+  id_etapetournois SERIAL PRIMARY KEY,
   id_equipe INTEGER REFERENCES equipe(id_equipe),
   id_sport  INTEGER REFERENCES sport(id_sport),
   id_finale INTEGER REFERENCES finale(id_finale),
