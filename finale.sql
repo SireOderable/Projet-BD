@@ -28,4 +28,10 @@ INSERT INTO finale VALUES
 (27, 'FINALE', 27, 'or'),
 (28, 'FINALE', 28, 'argent'),
 (29, 'FINALE', 29, 'bronze'),
-(30, 'FINALE', 30, 'argent');
+(30, 'FINALE', 30, 'argent'),
+(31, 'FINALE', 31, 'or'),
+(32, 'FINALE', 32, 'argent'),
+(33, 'FINALE', 33, 'or'),
+(34, 'FINALE', 34, 'or'),
+(35, 'FINALE', 35, 'or'),
+(36, 'FINALE', 36, 'or');

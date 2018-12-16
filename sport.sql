@@ -9,4 +9,10 @@ INSERT INTO sport VALUES
 (8, 'Gymnastique - Multiple par equipes femmes'),
 (9, 'Athlétisme - 200m hommes'),
 (10, 'Athlétisme - 400m hommes'),
-(11, 'Handball - femmes');
+(11, 'Handball - femmes'),
+(12, 'Natation - 200m Papillon hommes'),
+(13, 'Natation - 100m Papillon hommes'),
+(14, 'Natation - 200m 4 nages hommes'),
+(15, 'Natation - 4x200m nage libre hommes'),
+(16, 'Natation - 4x100m 4 nages hommes'),
+(17, 'Natation - 4x100m nage libre hommes');
