@@ -1,5 +1,5 @@
 INSERT INTO pays VALUES
-(1, 'Jamaïque'),
+(1, 'Jamaique'),
 (2, 'Etats-Unis'),
 (3, 'Canada'),
 (4, 'Suisse'),
@@ -10,7 +10,7 @@ INSERT INTO pays VALUES
 (9, 'Japon'),
 (10, 'Italie'),
 (11, 'Hongrie'),
-(12, 'Fédération de Russie'),
+(12, 'Federation de Russie'),
 (13, 'Chine'),
 (14, 'Serbie'),
 (15, 'Afrique du Sud'),
