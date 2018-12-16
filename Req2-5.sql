@@ -1,4 +1,4 @@
-SELECT DISTINCT nom_sport, nom FROM sport, equipe, pays, athlete, composition_equipe
+SELECT DISTINCT nom_sport FROM sport, equipe, pays, athlete, composition_equipe
 WHERE nb_joueurs = 1
 AND equipe.id_equipe = composition_equipe.id_equipe
 AND composition_equipe.id_at = athlete.id_at
