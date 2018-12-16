@@ -6,4 +6,7 @@ INSERT INTO sport VALUES
 (5, 'Basketball - hommes'),
 (6, 'Escrime - épée par équipes hommes'),
 (7, 'Gymnastique - Multiple individuel femmes'),
-(8, 'Gymnastique - Multiple par equipes femmes');
+(8, 'Gymnastique - Multiple par equipes femmes'),
+(9, 'Athlétisme - 200m hommes'),
+(10, 'Athlétisme - 400m hommes'),
+(11, 'Handball - femmes');

@@ -12,4 +12,6 @@ INSERT INTO pays VALUES
 (11, 'Hongrie'),
 (12, 'Fédération de Russie'),
 (13, 'Chine'),
-(14, 'Serbie');
+(14, 'Serbie'),
+(15, 'Afrique du Sud');
+(16, 'Grenade');
