@@ -15,4 +15,6 @@ INSERT INTO pays VALUES
 (14, 'Serbie'),
 (15, 'Afrique du Sud'),
 (16, 'Grenade'),
-(17, 'Kenya');
+(17, 'Kenya'),
+(18, 'Grande-Bretagne'),
+(19, 'Allemagne');

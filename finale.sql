@@ -35,4 +35,12 @@ INSERT INTO finale VALUES
 (34, 'FINALE', 34, 'or'),
 (35, 'FINALE', 35, 'or'),
 (36, 'FINALE', 36, 'or'),
-(37, 'FINALE', 37, 'or');
+(37, 'FINALE', 37, 'or'),
+(38, 'FINALE', 38, 'or'),
+(39, 'FINALE', 39, 'argent'),
+(40, 'FINALE', 40, 'bronze'),
+(41, 'FINALE', 41, null),
+(42, 'FINALE', 42, null),
+(43, 'FINALE', 43, null),
+(44, 'FINALE', 44, null),
+(45, 'FINALE', 45, null);

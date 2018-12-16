@@ -16,4 +16,5 @@ INSERT INTO sport VALUES
 (15, 'Natation - 4x200m nage libre hommes'),
 (16, 'Natation - 4x100m 4 nages hommes'),
 (17, 'Natation - 4x100m nage libre hommes'),
-(18, 'Marathon');
+(18, 'Marathon'),
+(19, 'Natation - 200m nage libre hommes');

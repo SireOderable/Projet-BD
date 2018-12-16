@@ -88,4 +88,12 @@ INSERT INTO athlete VALUES
 (87, '1985-10-27', 'LANDRE', 'Laurisa', 'F', 6),
 (88, '1988-10-03', 'EDWIGE', 'Béatrice', 'F', 6),
 (89, '1985-06-30', 'PHELPS', 'Fred', 'M', 2),
-(90, '1984-11-05', 'KIPCHOGE', 'Eliud', 'M', 17);
+(90, '1984-11-05', 'KIPCHOGE', 'Eliud', 'M', 17),
+(91, '1991-12-01', 'SUN', 'Yang', 'M', 13),
+(92, '1992-04-12', 'LE CLOS', 'Chad', 'M', 15),
+(93, '1989-01-10', 'DWYER', 'Conor', 'M', 2),
+(94, '1995-11-26', 'GUY', 'James', 'M', 18),
+(95, '1996-12-13', 'HAAS', 'Townley', 'M', 2),
+(96, '1986-08-07', 'BIEDERMANN', 'Paul', 'M', 19),
+(97, '1994-08-15', 'HAGINO', 'Kosuke', 'M', 9),
+(98, '1995-06-19', 'KRASNYKH', 'Aleksandr', 'M', 12);
