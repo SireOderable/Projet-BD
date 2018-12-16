@@ -34,4 +34,5 @@ INSERT INTO finale VALUES
 (33, 'FINALE', 33, 'or'),
 (34, 'FINALE', 34, 'or'),
 (35, 'FINALE', 35, 'or'),
-(36, 'FINALE', 36, 'or');
+(36, 'FINALE', 36, 'or'),
+(37, 'FINALE', 37, 'or');

@@ -67,10 +67,10 @@ INSERT INTO athlete VALUES
 (66, '1996-09-03', 'JIAXIN', 'Tan', 'F', 13),
 (67, '1996-03-18', 'CHUNSONG', 'Shang', 'F', 13),
 (68, '1999-10-30', 'YAN', 'Wang', 'F', 13),
-(69, '1990-06-11', 'LEMAITRE', 'Cristophe', 'H', 6),
-(70, '1992-07-15', 'VAN NIEKERK', 'Wayde', 'H', 15),
-(71, '1992-09-01', 'JAMES', 'Kirani', 'H', 16),
-(72, '1986-06-27', 'MERRITT', 'LaShawn', 'H', 2),
+(69, '1990-06-11', 'LEMAITRE', 'Cristophe', 'M', 6),
+(70, '1992-07-15', 'VAN NIEKERK', 'Wayde', 'M', 15),
+(71, '1992-09-01', 'JAMES', 'Kirani', 'M', 16),
+(72, '1986-06-27', 'MERRITT', 'LaShawn', 'M', 2),
 (73, '1986-05-02', 'LEYNAUD', 'Amandine', 'F', 6),
 (74, '1993-08-20', 'GLAUSER', 'Laura', 'F', 6),
 (75, '1992-07-02', 'HOUETTE', 'Manon', 'F', 6),
@@ -87,4 +87,5 @@ INSERT INTO athlete VALUES
 (86, '1991-08-11', 'NZE MINKO', 'Estelle', 'F', 6),
 (87, '1985-10-27', 'LANDRE', 'Laurisa', 'F', 6),
 (88, '1988-10-03', 'EDWIGE', 'Béatrice', 'F', 6),
-(89, '1985-06-30', 'PHELPS', 'Fred', 'H', 2);
+(89, '1985-06-30', 'PHELPS', 'Fred', 'M', 2),
+(90, '1984-11-05', 'KIPCHOGE', 'Eliud', 'M', 17);

@@ -97,4 +97,5 @@ INSERT INTO composition_equipe VALUES
 (33, 89),
 (34, 89),
 (35, 89),
-(36, 89);
+(36, 89),
+(37, 90);
