@@ -38,7 +38,7 @@ CREATE TABLE composition_equipe (
 );
   
 CREATE TABLE finale (
-  id_finale SERIAL PRIMARY KEY,
+  id_finale INTEGER NOT NULL,
   nom_finale VARCHAR (50) CHECK
   (nom_finale IN ('DEMI','QUART','HUITIEME','FINALE','PETITE FINALE')),
   id_equipe INTEGER REFERENCES equipe(id_equipe),
@@ -46,10 +46,10 @@ CREATE TABLE finale (
 );
   
 CREATE TABLE etape_tournois (
-  id_etapetournois SERIAL PRIMARY KEY,
+  id_etapetournois INTEGER NOT NULL,
   id_equipe INTEGER REFERENCES equipe(id_equipe),
   id_sport  INTEGER REFERENCES sport(id_sport),
-  id_finale INTEGER REFERENCES finale(id_finale),
+  id_finale INTEGER,
   resultat FLOAT,
   journee INTEGER
 );
