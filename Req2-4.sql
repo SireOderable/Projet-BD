@@ -1,4 +1,4 @@
-SELECT nom, prenom FROM athlete WHERE (nom,prenom) IN (SELECT DISTINCT nom, prenom
+SELECT nom, prenom FROM athlete WHERE (nom,prenom) NOT IN (SELECT DISTINCT nom, prenom
 FROM equipe, athlete, composition_equipe
 WHERE equipe.id_equipe = composition_equipe.id_equipe
 AND athlete.id_at = composition_equipe.id_at 
